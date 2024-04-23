@@ -1,0 +1,15 @@
+<!-- 角色管理视图-->
+<template>
+    <div>
+      <el-calendar v-model="value" />
+    </div>
+</template>
+
+<script lang="ts" setup>
+import { ref } from 'vue'
+const value = ref(new Date())
+</script>
+
+<style scoped>
+
+</style>
